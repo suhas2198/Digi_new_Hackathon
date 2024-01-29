@@ -1,0 +1,29 @@
+.sidebar {
+  flex: 2;
+  background-color:rgb(246, 244, 244);
+  height: 90vh;
+}
+.tabs {
+  list-style-type: none;
+  padding-top: 50px;
+  padding-left: 50px;
+  text-decoration: none;
+}
+.tabs li {
+  padding-bottom: 30px;
+  margin-bottom: 2px;
+
+
+  font-size: 20px;
+}
+
+.tabs li .tab{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+
+}
+.tabs li .tabs:hover {
+
+  color: purple;
+}

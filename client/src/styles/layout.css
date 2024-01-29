@@ -1,0 +1,11 @@
+
+.layout-wrapper{
+    display: flex;
+}
+.layout-wrapper-item1{
+
+    flex:10
+}
+.layout-wrapper-item2{
+    flex:2
+}

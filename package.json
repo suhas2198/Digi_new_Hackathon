@@ -1,0 +1,15 @@
+{
+  "name": "digital_flake_hakathon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "cd client && npm start",
+    "api": "cd api && npm start",
+    "dev": "concurrently \"npm run client\" \"npm run api\" "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

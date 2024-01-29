@@ -1,0 +1,57 @@
+.main-wrapper{
+    display: flex;
+}
+
+
+.loginbox {
+  width: 300px;
+  height: 80vh;
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-top: 50px;
+  background-color: white;
+}
+.login-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+}
+.login-top .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: purple;
+    height: 45px;
+    width: 45px;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: 700;
+
+
+}
+
+.login-main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.image img{
+  
+ object-fit: fill;
+  
+}
+
+.register{
+    color: blue;
+    cursor: pointer;
+}

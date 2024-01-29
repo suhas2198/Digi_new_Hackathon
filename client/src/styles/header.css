@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: purple;
+  color: white;
+  height:10vh;
+  width: 100%;
+ 
+}
+.header .title {
+  font-size: 25px;
+}
+.header .title .D {
+  font-size: 25px;
+  padding-right: 5px;
+}
+.header .profile-icon{
+    font-size: 30px;
+    padding-left: 10px;
+ 
+}
